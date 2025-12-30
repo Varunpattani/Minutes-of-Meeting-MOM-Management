@@ -1,0 +1,143 @@
+﻿<div class="pagetitle d-flex justify-content-between align-items-center mb-3">
+    <h1 class="m-0">Staff Table</h1>
+
+    <a asp-controller="Staff"
+       asp-action="StaffAddEdit"
+       class="btn btn-primary">
+        <i class="bi bi-plus-circle"></i> Add
+    </a>
+</div>
+<section class="section">
+    <div class="row">
+        <div class="col-lg-12">
+
+            <div class="card shadow-sm border-0">
+                <!-- Card Header -->
+                <div class="card-header bg-white border-0 d-flex align-items-center justify-content-between">
+                    <h5 class="mb-0 fw-semibold">
+                        <i class="bi bi-building me-2 text-primary"></i>
+                        Staff List
+                    </h5>
+                </div>
+
+                <div class="card-body p-0">
+                    <!-- Table -->
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover align-middle mb-0 datatable">
+                            <thead class="table-light">
+                                <tr>
+                                    <th class="ps-4">Staff ID</th>
+                                    <th class="ps-4">Department ID</th>
+                                    <th class="ps-4">Staff Name</th>
+                                    <th class="ps-4">Mobile No</th>
+                                    <th class="ps-4">EmailAddress</th>
+                                    <th class="ps-4">Remarks</th>
+                                    <th data-type="date" data-format="YYYY/DD/MM">Created</th>
+                                    <th data-type="date" data-format="YYYY/DD/MM">Modified</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+
+                                <tr>
+                                    <td class="ps-4">STF-001</td>
+                                    <td class="ps-4">DEPT-01</td>
+                                    <td class="ps-4">Amit Sharma</td>
+                                    <td class="ps-4 d-none d-md-table-cell">9876543210</td>
+                                    <td class="ps-4 d-none d-lg-table-cell">amit.sharma@company.com</td>
+                                    <td class="ps-4 d-none d-xl-table-cell truncate">Senior software engineer</td>
+                                    <td>2024/05/12</td>
+                                    <td class="d-none d-xl-table-cell">2024/10/12</td>
+                                    <td>
+                                        <a asp-controller="Staff"
+                                           asp-action="StaffAddEdit"
+                                           class="btn btn-sm btn-outline-primary">
+                                            <i class="bi bi-pencil"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="ps-4">STF-002</td>
+                                    <td class="ps-4">DEPT-02</td>
+                                    <td class="ps-4">Neha Patel</td>
+                                    <td class="ps-4 d-none d-md-table-cell">9123456789</td>
+                                    <td class="ps-4 d-none d-lg-table-cell">neha.patel@company.com</td>
+                                    <td class="ps-4 d-none d-xl-table-cell truncate">HR manager</td>
+                                    <td>2024/06/12</td>
+                                    <td class="d-none d-xl-table-cell">2024/11/12</td>
+                                    <td>
+                                        <a asp-controller="Staff"
+                                           asp-action="StaffAddEdit"
+                                           class="btn btn-sm btn-outline-primary">
+                                            <i class="bi bi-pencil"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="ps-4">STF-003</td>
+                                    <td class="ps-4">DEPT-03</td>
+                                    <td class="ps-4">Rahul Mehta</td>
+                                    <td class="ps-4 d-none d-md-table-cell">9988776655</td>
+                                    <td class="ps-4 d-none d-lg-table-cell">rahul.mehta@company.com</td>
+                                    <td class="ps-4 d-none d-xl-table-cell truncate">Finance analyst</td>
+                                    <td>2024/07/12</td>
+                                    <td class="d-none d-xl-table-cell">2024/12/12</td>
+                                    <td>
+                                        <a asp-controller="Staff"
+                                           asp-action="StaffAddEdit"
+                                           class="btn btn-sm btn-outline-primary">
+                                            <i class="bi bi-pencil"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="ps-4">STF-004</td>
+                                    <td class="ps-4">DEPT-01</td>
+                                    <td class="ps-4">Pooja Verma</td>
+                                    <td class="ps-4 d-none d-md-table-cell">9090909090</td>
+                                    <td class="ps-4 d-none d-lg-table-cell">pooja.verma@company.com</td>
+                                    <td class="ps-4 d-none d-xl-table-cell truncate">UI/UX designer</td>
+                                    <td>2024/08/12</td>
+                                    <td class="d-none d-xl-table-cell">2024/13/12</td>
+                                    <td>
+                                        <a asp-controller="Staff"
+                                           asp-action="StaffAddEdit"
+                                           class="btn btn-sm btn-outline-primary">
+                                            <i class="bi bi-pencil"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="ps-4">STF-005</td>
+                                    <td class="ps-4">DEPT-04</td>
+                                    <td class="ps-4">Suresh Kumar</td>
+                                    <td class="ps-4 d-none d-md-table-cell">9345678123</td>
+                                    <td class="ps-4 d-none d-lg-table-cell">suresh.kumar@company.com</td>
+                                    <td class="ps-4 d-none d-xl-table-cell truncate">Operations supervisor</td>
+                                    <td>2024/09/12</td>
+                                    <td class="d-none d-xl-table-cell">2024/14/12</td>
+                                    <td>
+                                        <a asp-controller="Staff"
+                                           asp-action="StaffAddEdit"
+                                           class="btn btn-sm btn-outline-primary">
+                                            <i class="bi bi-pencil"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
